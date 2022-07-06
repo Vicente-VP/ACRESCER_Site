@@ -4,13 +4,15 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+
     text-decoration: none;
 }
 
 body{
+    display: block;
+
     font-size: 100%;
     background: rgb(208, 205, 205);
-    display: block;
 }
 
 .linha{
@@ -24,32 +26,38 @@ body{
     align-items: center;
     gap: 10px;
     justify-content:space-between;
+    
     padding: 10px;
-    background-color: rgb(208, 205, 205);
     margin-right: 220px;
     margin-left: 100px;
+    
+    background-color: rgb(208, 205, 205);
 }
 
 .cabecalhosec{
     display: flex;
     gap: 32px;
+
     font-family: 'Finlandica', sans-serif;
     color: black;
     font-weight: 500;
 }
 
 .principal{
+    display: block;
+
     border-top: 12px solid rgb(41, 115, 213);
     margin-bottom: 48px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1220px;
+
     background-color: white;
-    display: block;
 }
 
 .conteudo{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -57,14 +65,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+
     padding-top: 20px;
 }
 
 .titulo{
     color: black;
     font-size: 45px;
-    padding-left: 20px;
     font-family: 'Tiro Kannada', serif;
+
+    padding-left: 20px;
 }
 
 .logo {
@@ -74,10 +84,12 @@ body{
 
 h3{
     text-align: center;
+
     border-bottom: 0.4px solid rgb(41, 115, 213);
     background-color: rgb(245, 237, 237);
     border-radius: 12px;
     box-shadow: rgb(179, 173, 173);
+
     width: 270px;
 }
 
@@ -90,8 +102,10 @@ p{
     flex-direction: column;
     align-items: center;
     gap: 7px;
-    margin-left: 200px;
+
+    margin-top: 85px;
     padding-right: 10px;
+    
     font-family: 'Open Sans', sans-serif;
     font-size: large;
 }
@@ -101,7 +115,8 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+
+    margin-top: 70px;
 }
 
 .rodape{
@@ -109,8 +124,11 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
     background-color: rgb(41, 115, 213);
+
     height: 220px;
+
     text-align: center;
     font-size: large;
     font-family: 'Open Sans', sans-serif;
