@@ -51,6 +51,7 @@ a{
 .principal{
     display: block;
 
+    border-radius: 7px;
     border-top: 12px solid rgb(41, 115, 213);
     margin-bottom: 48px;
     margin-left: auto;
@@ -85,7 +86,7 @@ a{
 
 .logo {
     height: auto;
-    width: 230px;
+    width: 280px;
 }
 
 h3{

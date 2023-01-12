@@ -60,74 +60,50 @@ a{
     background-color: white;
 }
 
+
+
 .conteudo{
     display:flex;
     flex-direction: column;
     align-items: center;
-}
+    gap: 20px;
 
-.conteudo-principal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    margin-top: 30px;
-    padding-top: 5px;
+    padding-top: 70px;
 }
 
 .titulo{
+    font-family: 'Finlandica', sans-serif;
+    font-size: 60px;
     color: black;
-    font-size: 45px;
-    font-family: 'Tiro Kannada', serif;
+    font-weight: 500px;
+}
 
-    padding-left: 20px;
+.res{
+    margin-top: 25px;
+    
+}
+
+input[type=submit]{
+    margin-bottom: 45px;
+    padding: 5px;
+    border:none;
+
+    height: 50px;
+    width: 90px;
+
+    color: beige;
+    background-color: rgb(41, 115, 213);
+}
+
+label{
+    font-family: 'Finlandica', sans-serif;
+    font-size: 25px;
+    color: black;
 }
 
 .logo {
     height: auto;
     width: 230px;
-}
-
-.Sobre{
-    display: table;
-    table-layout: fixed;
-}
-
-.conteudo-secundario{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-
-    margin-right: 280px;
-    margin-top: 50px;
-    margin-left: 350px;
-    border-left: 0.4px solid rgb(41, 115, 213);
-    padding-left: 10px;
-
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    font-weight: 450;
-}
-
-.continuacao{
-    display: flex;
-    flex-direction: column;
-
-    margin-right: 280px;
-    margin-left: 350px;
-    margin-bottom: 70px;
-    border-left: 0.4px solid rgb(41, 115, 213);
-    padding-left: 10px;
-    padding-top: 2px;
-
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    font-weight: 450;
-}
-
-.photo{
-    height: 230px;
-    width: 235px;
 }
 
 
