@@ -107,6 +107,13 @@ li{
 
 .parceiros{
     margin-bottom: 70px;
+    margin-top: 10px;
+}
+
+#parceiros{
+    font-size: 30px;
+    color: black;
+    font-weight: 300px;
 }
 
 .rodape{

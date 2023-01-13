@@ -18,14 +18,16 @@
         </nav>
     </header>
 
+    <div class="linha"></div> 
 
     <main class="principal">
         <section class="conteudo">
-            <div class="titulo">CONTATO</div> 
-            <form action="" method="POST">
-                <div class="res"><label for="nome">Nome:</label><br><input type="text" name="nome" id="nome" required></div><br>
-                <div class="res"><label for="email">Email:</label><br><input type="email" name="email" id="email" required></div><br>
-                <div class="res"><label for="contudo">Sua mensagem:</label><br><textarea name="conteudo" id="conteudo" cols="70" rows="20"></textarea></div><br>
+            <div class="titulo">CONTATO</div>
+            <form action="https://formsubmit.co/723baaf7d224474862279d383ab3cbaf" method="POST">
+                <div class="res"><label for="nome">Nome: (obrigatório)</label><br><input type="text" name="nome" id="nome" class="forms" required></div><br>
+                <div class="res"><label for="email">Email: (obrigatório)</label><br><input type="email" name="email" id="email" class="forms" required></div><br>
+                <div class="res"><label for="assunto">Assunto:</label><br><input type="text" name="assunto" id="assunto" class="forms"></div><br>
+                <div class="res"><label for="contudo">Sua mensagem:</label><br><textarea name="conteudo" id="conteudo" cols="20" rows="20" ></textarea></div><br>
                 <div class="res"><input type="submit" value="Enviar"></div>
             </form>
         </section>

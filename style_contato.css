@@ -80,7 +80,15 @@ a{
 
 .res{
     margin-top: 25px;
-    
+}
+
+.forms{
+    height: 40px;
+    width: 700px;
+}
+
+#conteudo{
+    width: 700px;
 }
 
 input[type=submit]{
