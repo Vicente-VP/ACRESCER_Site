@@ -47,6 +47,10 @@ a{
     font-weight: 500;
 }
 
+a:hover{
+    color:rgb(41, 115, 213);
+}
+
 .principal{
     display: block;
 

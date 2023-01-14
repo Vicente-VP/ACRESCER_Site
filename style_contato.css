@@ -47,6 +47,10 @@ a{
     font-weight: 500;
 }
 
+a:hover{
+    color:rgb(41, 115, 213);
+}
+
 .principal{
     display: block;
 
@@ -75,7 +79,8 @@ a{
     font-family: 'Finlandica', sans-serif;
     font-size: 60px;
     color: black;
-    font-weight: 500px;
+    font-weight: 200px;
+    border-bottom: 2px solid rgb(41, 115, 213)
 }
 
 .res{

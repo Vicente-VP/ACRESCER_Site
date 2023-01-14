@@ -38,6 +38,10 @@ body{
     font-weight: 500;
 }
 
+a:hover{
+    color:rgb(41, 115, 213);
+}
+
 .principal{
     border-top: 12px solid rgb(41, 115, 213);
     margin-bottom: 48px;

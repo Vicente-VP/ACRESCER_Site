@@ -47,6 +47,10 @@ a{
     font-weight: 500;
 }
 
+a:hover{
+    color:rgb(41, 115, 213);
+}
+
 .principal{
     display: block;
 
@@ -114,6 +118,7 @@ li{
     font-size: 30px;
     color: black;
     font-weight: 300px;
+    border-bottom: 2px solid rgb(41, 115, 213)
 }
 
 .rodape{
